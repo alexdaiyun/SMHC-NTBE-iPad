@@ -14,6 +14,10 @@
 		CC87D770195038A700DE3C71 /* SMHC_GlobalAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D76F195038A700DE3C71 /* SMHC_GlobalAppearance.m */; };
 		CC87D77419503A5600DE3C71 /* FlatFrameButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D77319503A5600DE3C71 /* FlatFrameButton.m */; };
 		CC87D77719503A6600DE3C71 /* FlatFrameButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D77519503A6600DE3C71 /* FlatFrameButton+Bootstrap.m */; };
+		CC87D78A1950B3B600DE3C71 /* QuickTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7831950B3B600DE3C71 /* QuickTimer.m */; };
+		CC87D78B1950B3B600DE3C71 /* BrushCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7861950B3B600DE3C71 /* BrushCanvas.m */; };
+		CC87D78C1950B3B600DE3C71 /* ColorPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7881950B3B600DE3C71 /* ColorPickerController.m */; };
+		CC87D78D1950B3B600DE3C71 /* ColorPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC87D7891950B3B600DE3C71 /* ColorPickerController.xib */; };
 		CCBABDD7194FF5D3001B507C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDD6194FF5D3001B507C /* Foundation.framework */; };
 		CCBABDD9194FF5D3001B507C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDD8194FF5D3001B507C /* CoreGraphics.framework */; };
 		CCBABDDB194FF5D3001B507C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDDA194FF5D3001B507C /* UIKit.framework */; };
@@ -55,6 +59,13 @@
 		CC87D77319503A5600DE3C71 /* FlatFrameButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatFrameButton.m; sourceTree = "<group>"; };
 		CC87D77519503A6600DE3C71 /* FlatFrameButton+Bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "FlatFrameButton+Bootstrap.m"; path = "Categories/FlatFrameButton+Bootstrap.m"; sourceTree = "<group>"; };
 		CC87D77619503A6600DE3C71 /* FlatFrameButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FlatFrameButton+Bootstrap.h"; path = "Categories/FlatFrameButton+Bootstrap.h"; sourceTree = "<group>"; };
+		CC87D7821950B3B600DE3C71 /* QuickTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTimer.h; sourceTree = "<group>"; };
+		CC87D7831950B3B600DE3C71 /* QuickTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTimer.m; sourceTree = "<group>"; };
+		CC87D7851950B3B600DE3C71 /* BrushCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrushCanvas.h; sourceTree = "<group>"; };
+		CC87D7861950B3B600DE3C71 /* BrushCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrushCanvas.m; sourceTree = "<group>"; };
+		CC87D7871950B3B600DE3C71 /* ColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerController.h; sourceTree = "<group>"; };
+		CC87D7881950B3B600DE3C71 /* ColorPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerController.m; sourceTree = "<group>"; };
+		CC87D7891950B3B600DE3C71 /* ColorPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorPickerController.xib; sourceTree = "<group>"; };
 		CCBABDD3194FF5D3001B507C /* NTBELabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTBELabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBABDD6194FF5D3001B507C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCBABDD8194FF5D3001B507C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -108,6 +119,8 @@
 		CC87D7601950354B00DE3C71 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				CC87D7811950B3B600DE3C71 /* QuickTimer */,
+				CC87D7841950B3B600DE3C71 /* BrushTool */,
 				CC87D77119503A5600DE3C71 /* FlatFrameButton */,
 				CC87D7621950381F00DE3C71 /* CRNavigationController */,
 			);
@@ -143,6 +156,29 @@
 			);
 			name = FlatFrameButton;
 			path = Vendor/FlatFrameButton;
+			sourceTree = "<group>";
+		};
+		CC87D7811950B3B600DE3C71 /* QuickTimer */ = {
+			isa = PBXGroup;
+			children = (
+				CC87D7821950B3B600DE3C71 /* QuickTimer.h */,
+				CC87D7831950B3B600DE3C71 /* QuickTimer.m */,
+			);
+			name = QuickTimer;
+			path = Vendor/QuickTimer;
+			sourceTree = "<group>";
+		};
+		CC87D7841950B3B600DE3C71 /* BrushTool */ = {
+			isa = PBXGroup;
+			children = (
+				CC87D7851950B3B600DE3C71 /* BrushCanvas.h */,
+				CC87D7861950B3B600DE3C71 /* BrushCanvas.m */,
+				CC87D7871950B3B600DE3C71 /* ColorPickerController.h */,
+				CC87D7881950B3B600DE3C71 /* ColorPickerController.m */,
+				CC87D7891950B3B600DE3C71 /* ColorPickerController.xib */,
+			);
+			name = BrushTool;
+			path = Vendor/BrushTool;
 			sourceTree = "<group>";
 		};
 		CCBABDCA194FF5D2001B507C = {
@@ -337,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCBABDE1194FF5D3001B507C /* InfoPlist.strings in Resources */,
+				CC87D78D1950B3B600DE3C71 /* ColorPickerController.xib in Resources */,
 				CCBABDE9194FF5D3001B507C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,8 +430,11 @@
 				CCBABDE3194FF5D3001B507C /* main.m in Sources */,
 				CCBABDE7194FF5D3001B507C /* SMHC_AppDelegate.m in Sources */,
 				CC87D7671950381F00DE3C71 /* CRNavigationBar.m in Sources */,
+				CC87D78B1950B3B600DE3C71 /* BrushCanvas.m in Sources */,
 				CC87D76D1950382E00DE3C71 /* AppUtil.m in Sources */,
+				CC87D78C1950B3B600DE3C71 /* ColorPickerController.m in Sources */,
 				CC87D77719503A6600DE3C71 /* FlatFrameButton+Bootstrap.m in Sources */,
+				CC87D78A1950B3B600DE3C71 /* QuickTimer.m in Sources */,
 				CC87D770195038A700DE3C71 /* SMHC_GlobalAppearance.m in Sources */,
 				CC87D77419503A5600DE3C71 /* FlatFrameButton.m in Sources */,
 			);
