@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+pod 'MKNetworkKit', '~>0.87'
+pod 'AFNetworking', '~> 2.1.0'
+pod 'MBProgressHUD', '~> 0.8'
+pod 'SVPullToRefresh', '~> 0.4.1'
+pod 'SDWebImage'
+pod 'UIAlertView+Blocks', '~> 0.8.1'
