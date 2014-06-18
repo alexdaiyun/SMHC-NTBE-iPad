@@ -27,6 +27,8 @@
 		CC87D7A119513E1600DE3C71 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC87D7A019513E1600DE3C71 /* QuartzCore.framework */; };
 		CC87D7A319513EC700DE3C71 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC87D7A219513EC700DE3C71 /* MainStoryboard.storyboard */; };
 		CC87D7A719513FC200DE3C71 /* SampleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC87D7A619513FC200DE3C71 /* SampleStoryboard.storyboard */; };
+		CC87D7A91951575700DE3C71 /* ScaleLevel in Resources */ = {isa = PBXBuildFile; fileRef = CC87D7A81951575700DE3C71 /* ScaleLevel */; };
+		CC87D7AB1951576500DE3C71 /* NTBELabsData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CC87D7AA1951576400DE3C71 /* NTBELabsData.sqlite */; };
 		CCBABDD7194FF5D3001B507C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDD6194FF5D3001B507C /* Foundation.framework */; };
 		CCBABDD9194FF5D3001B507C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDD8194FF5D3001B507C /* CoreGraphics.framework */; };
 		CCBABDDB194FF5D3001B507C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDDA194FF5D3001B507C /* UIKit.framework */; };
@@ -90,6 +92,8 @@
 		CC87D7A019513E1600DE3C71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CC87D7A219513EC700DE3C71 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = Storyboards/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CC87D7A619513FC200DE3C71 /* SampleStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SampleStoryboard.storyboard; path = Storyboards/SampleStoryboard.storyboard; sourceTree = "<group>"; };
+		CC87D7A81951575700DE3C71 /* ScaleLevel */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ScaleLevel; path = SupportingFiles/ScaleLevel; sourceTree = "<group>"; };
+		CC87D7AA1951576400DE3C71 /* NTBELabsData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = NTBELabsData.sqlite; path = SupportingFiles/NTBELabsData.sqlite; sourceTree = "<group>"; };
 		CCBABDD3194FF5D3001B507C /* NTBELabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTBELabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBABDD6194FF5D3001B507C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCBABDD8194FF5D3001B507C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -271,6 +275,8 @@
 		CCBABDDD194FF5D3001B507C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC87D7AA1951576400DE3C71 /* NTBELabsData.sqlite */,
+				CC87D7A81951575700DE3C71 /* ScaleLevel */,
 				CCBABDE8194FF5D3001B507C /* Images.xcassets */,
 				CCBABDDE194FF5D3001B507C /* NTBELabs-Info.plist */,
 				CCBABDDF194FF5D3001B507C /* InfoPlist.strings */,
@@ -416,9 +422,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC87D7A91951575700DE3C71 /* ScaleLevel in Resources */,
 				CCBABDE1194FF5D3001B507C /* InfoPlist.strings in Resources */,
 				CC87D7A719513FC200DE3C71 /* SampleStoryboard.storyboard in Resources */,
 				CC87D78D1950B3B600DE3C71 /* ColorPickerController.xib in Resources */,
+				CC87D7AB1951576500DE3C71 /* NTBELabsData.sqlite in Resources */,
 				CC87D7A319513EC700DE3C71 /* MainStoryboard.storyboard in Resources */,
 				CCBABDE9194FF5D3001B507C /* Images.xcassets in Resources */,
 			);
