@@ -8,7 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+#import "SMHC_GlobalAppearance.h"
+#import "SMHC_AppController.h"
+#import "SMHC_AppFactory.h"
+
+#define ApplicationDelegate ((TM_AppDelegate *)[UIApplication sharedApplication].delegate)
+
 @interface SMHC_AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    SMHC_AppController *appController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

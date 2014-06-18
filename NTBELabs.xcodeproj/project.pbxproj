@@ -29,6 +29,8 @@
 		CC87D7A719513FC200DE3C71 /* SampleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC87D7A619513FC200DE3C71 /* SampleStoryboard.storyboard */; };
 		CC87D7A91951575700DE3C71 /* ScaleLevel in Resources */ = {isa = PBXBuildFile; fileRef = CC87D7A81951575700DE3C71 /* ScaleLevel */; };
 		CC87D7AB1951576500DE3C71 /* NTBELabsData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CC87D7AA1951576400DE3C71 /* NTBELabsData.sqlite */; };
+		CC87D7AE1951652A00DE3C71 /* SMHC_AppFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7AD1951652A00DE3C71 /* SMHC_AppFactory.m */; };
+		CC87D7B11951665E00DE3C71 /* SMHC_AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7B01951665E00DE3C71 /* SMHC_AppController.m */; };
 		CCBABDD7194FF5D3001B507C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDD6194FF5D3001B507C /* Foundation.framework */; };
 		CCBABDD9194FF5D3001B507C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDD8194FF5D3001B507C /* CoreGraphics.framework */; };
 		CCBABDDB194FF5D3001B507C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDDA194FF5D3001B507C /* UIKit.framework */; };
@@ -93,6 +95,10 @@
 		CC87D7A619513FC200DE3C71 /* SampleStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SampleStoryboard.storyboard; path = Storyboards/SampleStoryboard.storyboard; sourceTree = "<group>"; };
 		CC87D7A81951575700DE3C71 /* ScaleLevel */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ScaleLevel; path = SupportingFiles/ScaleLevel; sourceTree = "<group>"; };
 		CC87D7AA1951576400DE3C71 /* NTBELabsData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = NTBELabsData.sqlite; path = SupportingFiles/NTBELabsData.sqlite; sourceTree = "<group>"; };
+		CC87D7AC1951652A00DE3C71 /* SMHC_AppFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHC_AppFactory.h; sourceTree = "<group>"; };
+		CC87D7AD1951652A00DE3C71 /* SMHC_AppFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMHC_AppFactory.m; sourceTree = "<group>"; };
+		CC87D7AF1951665E00DE3C71 /* SMHC_AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHC_AppController.h; sourceTree = "<group>"; };
+		CC87D7B01951665E00DE3C71 /* SMHC_AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMHC_AppController.m; sourceTree = "<group>"; };
 		CCBABDD3194FF5D3001B507C /* NTBELabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTBELabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBABDD6194FF5D3001B507C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCBABDD8194FF5D3001B507C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -266,6 +272,10 @@
 				CCBABDE6194FF5D3001B507C /* SMHC_AppDelegate.m */,
 				CC87D76E195038A700DE3C71 /* SMHC_GlobalAppearance.h */,
 				CC87D76F195038A700DE3C71 /* SMHC_GlobalAppearance.m */,
+				CC87D7AC1951652A00DE3C71 /* SMHC_AppFactory.h */,
+				CC87D7AD1951652A00DE3C71 /* SMHC_AppFactory.m */,
+				CC87D7AF1951665E00DE3C71 /* SMHC_AppController.h */,
+				CC87D7B01951665E00DE3C71 /* SMHC_AppController.m */,
 				CCBABDDD194FF5D3001B507C /* Supporting Files */,
 			);
 			path = NTBELabs;
@@ -482,7 +492,9 @@
 				CCBABDE3194FF5D3001B507C /* main.m in Sources */,
 				CCBABDE7194FF5D3001B507C /* SMHC_AppDelegate.m in Sources */,
 				CC87D7671950381F00DE3C71 /* CRNavigationBar.m in Sources */,
+				CC87D7AE1951652A00DE3C71 /* SMHC_AppFactory.m in Sources */,
 				CC87D79B1950B8D000DE3C71 /* Subjects.m in Sources */,
+				CC87D7B11951665E00DE3C71 /* SMHC_AppController.m in Sources */,
 				CC87D7911950B7D100DE3C71 /* SQLiteFMDBHelper.m in Sources */,
 				CC87D78B1950B3B600DE3C71 /* BrushCanvas.m in Sources */,
 				CC87D76D1950382E00DE3C71 /* AppUtil.m in Sources */,

@@ -27,9 +27,9 @@
         // for iOS 7 or later
         [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
         [[UINavigationBar appearance] setBarTintColor:kAppPrimaryColor];
-        [[UINavigationBar appearance] setTitleTextAttributes:@{
-                                                               UITextAttributeTextColor:[UIColor whiteColor],
-                                                               UITextAttributeTextShadowColor:[UIColor clearColor]}];
+//        [[UINavigationBar appearance] setTitleTextAttributes:@{
+//                                                               UITextAttributeTextColor:[UIColor whiteColor],
+//                                                               UITextAttributeTextShadowColor:[UIColor clearColor]}];
     }
     else
     {
