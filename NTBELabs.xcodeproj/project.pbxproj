@@ -19,6 +19,10 @@
 		CC87D78C1950B3B600DE3C71 /* ColorPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7881950B3B600DE3C71 /* ColorPickerController.m */; };
 		CC87D78D1950B3B600DE3C71 /* ColorPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC87D7891950B3B600DE3C71 /* ColorPickerController.xib */; };
 		CC87D7911950B7D100DE3C71 /* SQLiteFMDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D78F1950B7D100DE3C71 /* SQLiteFMDBHelper.m */; };
+		CC87D79A1950B8D000DE3C71 /* SubjectsBLL.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7921950B8D000DE3C71 /* SubjectsBLL.m */; };
+		CC87D79B1950B8D000DE3C71 /* Subjects.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7941950B8D000DE3C71 /* Subjects.m */; };
+		CC87D79C1950B8D000DE3C71 /* ScaleReportBLL.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7961950B8D000DE3C71 /* ScaleReportBLL.m */; };
+		CC87D79D1950B8D000DE3C71 /* ScaleReport.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7981950B8D000DE3C71 /* ScaleReport.m */; };
 		CCBABDD7194FF5D3001B507C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDD6194FF5D3001B507C /* Foundation.framework */; };
 		CCBABDD9194FF5D3001B507C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDD8194FF5D3001B507C /* CoreGraphics.framework */; };
 		CCBABDDB194FF5D3001B507C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDDA194FF5D3001B507C /* UIKit.framework */; };
@@ -70,6 +74,14 @@
 		CC87D78E1950B7D100DE3C71 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = utils/SynthesizeSingleton.h; sourceTree = "<group>"; };
 		CC87D78F1950B7D100DE3C71 /* SQLiteFMDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLiteFMDBHelper.m; path = utils/SQLiteFMDBHelper.m; sourceTree = "<group>"; };
 		CC87D7901950B7D100DE3C71 /* SQLiteFMDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLiteFMDBHelper.h; path = utils/SQLiteFMDBHelper.h; sourceTree = "<group>"; };
+		CC87D7921950B8D000DE3C71 /* SubjectsBLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubjectsBLL.m; path = Model/SubjectsBLL.m; sourceTree = "<group>"; };
+		CC87D7931950B8D000DE3C71 /* SubjectsBLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubjectsBLL.h; path = Model/SubjectsBLL.h; sourceTree = "<group>"; };
+		CC87D7941950B8D000DE3C71 /* Subjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Subjects.m; path = Model/Subjects.m; sourceTree = "<group>"; };
+		CC87D7951950B8D000DE3C71 /* Subjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Subjects.h; path = Model/Subjects.h; sourceTree = "<group>"; };
+		CC87D7961950B8D000DE3C71 /* ScaleReportBLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScaleReportBLL.m; path = Model/ScaleReportBLL.m; sourceTree = "<group>"; };
+		CC87D7971950B8D000DE3C71 /* ScaleReportBLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScaleReportBLL.h; path = Model/ScaleReportBLL.h; sourceTree = "<group>"; };
+		CC87D7981950B8D000DE3C71 /* ScaleReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScaleReport.m; path = Model/ScaleReport.m; sourceTree = "<group>"; };
+		CC87D7991950B8D000DE3C71 /* ScaleReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScaleReport.h; path = Model/ScaleReport.h; sourceTree = "<group>"; };
 		CCBABDD3194FF5D3001B507C /* NTBELabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTBELabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBABDD6194FF5D3001B507C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCBABDD8194FF5D3001B507C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +128,14 @@
 		CC87D75F1950353A00DE3C71 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CC87D7921950B8D000DE3C71 /* SubjectsBLL.m */,
+				CC87D7931950B8D000DE3C71 /* SubjectsBLL.h */,
+				CC87D7941950B8D000DE3C71 /* Subjects.m */,
+				CC87D7951950B8D000DE3C71 /* Subjects.h */,
+				CC87D7961950B8D000DE3C71 /* ScaleReportBLL.m */,
+				CC87D7971950B8D000DE3C71 /* ScaleReportBLL.h */,
+				CC87D7981950B8D000DE3C71 /* ScaleReport.m */,
+				CC87D7991950B8D000DE3C71 /* ScaleReport.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -437,11 +457,15 @@
 				CCBABDE3194FF5D3001B507C /* main.m in Sources */,
 				CCBABDE7194FF5D3001B507C /* SMHC_AppDelegate.m in Sources */,
 				CC87D7671950381F00DE3C71 /* CRNavigationBar.m in Sources */,
+				CC87D79B1950B8D000DE3C71 /* Subjects.m in Sources */,
 				CC87D7911950B7D100DE3C71 /* SQLiteFMDBHelper.m in Sources */,
 				CC87D78B1950B3B600DE3C71 /* BrushCanvas.m in Sources */,
 				CC87D76D1950382E00DE3C71 /* AppUtil.m in Sources */,
+				CC87D79C1950B8D000DE3C71 /* ScaleReportBLL.m in Sources */,
 				CC87D78C1950B3B600DE3C71 /* ColorPickerController.m in Sources */,
+				CC87D79A1950B8D000DE3C71 /* SubjectsBLL.m in Sources */,
 				CC87D77719503A6600DE3C71 /* FlatFrameButton+Bootstrap.m in Sources */,
+				CC87D79D1950B8D000DE3C71 /* ScaleReport.m in Sources */,
 				CC87D78A1950B3B600DE3C71 /* QuickTimer.m in Sources */,
 				CC87D770195038A700DE3C71 /* SMHC_GlobalAppearance.m in Sources */,
 				CC87D77419503A5600DE3C71 /* FlatFrameButton.m in Sources */,
