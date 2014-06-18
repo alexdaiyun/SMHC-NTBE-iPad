@@ -77,7 +77,6 @@
 		CC87D7871950B3B600DE3C71 /* ColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerController.h; sourceTree = "<group>"; };
 		CC87D7881950B3B600DE3C71 /* ColorPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerController.m; sourceTree = "<group>"; };
 		CC87D7891950B3B600DE3C71 /* ColorPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorPickerController.xib; sourceTree = "<group>"; };
-		CC87D78E1950B7D100DE3C71 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = utils/SynthesizeSingleton.h; sourceTree = "<group>"; };
 		CC87D78F1950B7D100DE3C71 /* SQLiteFMDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLiteFMDBHelper.m; path = utils/SQLiteFMDBHelper.m; sourceTree = "<group>"; };
 		CC87D7901950B7D100DE3C71 /* SQLiteFMDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLiteFMDBHelper.h; path = utils/SQLiteFMDBHelper.h; sourceTree = "<group>"; };
 		CC87D7921950B8D000DE3C71 /* SubjectsBLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubjectsBLL.m; path = Model/SubjectsBLL.m; sourceTree = "<group>"; };
@@ -330,7 +329,6 @@
 		CCBABE0819500276001B507C /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				CC87D78E1950B7D100DE3C71 /* SynthesizeSingleton.h */,
 				CC87D78F1950B7D100DE3C71 /* SQLiteFMDBHelper.m */,
 				CC87D7901950B7D100DE3C71 /* SQLiteFMDBHelper.h */,
 				CC87D7691950382E00DE3C71 /* MacroUtils.h */,
