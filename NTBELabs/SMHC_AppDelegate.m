@@ -19,6 +19,60 @@
 	return appController;
 }
 
+#pragma mark - Start-up
+- (void)Startup
+{
+    //启动时处理数据库文件
+    [self CheckAndCreateDatabae];
+   
+}
+- (void)CheckAndCreateDatabae
+{
+    //Create a FileManager object, we will use this to check the status
+    // of the database and to copy it over if required
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    // Check if the SQL database has already been saved to the users phone, if not then copy it over
+    BOOL success;
+    
+    NSError *error;
+    
+    
+    //Documents目录中的Database文件及路径
+    
+    NSString *appDBPath = AppDBFullPath; //[AppUtil getAppDBPath];
+    
+    
+    success = [fileManager fileExistsAtPath:appDBPath];
+    
+    if (success) return;
+    
+    //若文件不存在，则从App pack中复制
+    // App pack => Documents
+    NSString *sourceDBPath = [PATH_OF_APP_RESOURCE stringByAppendingPathComponent:AppDBName];
+    
+    success = [fileManager copyItemAtPath:sourceDBPath toPath:appDBPath error:&error];
+    
+    if (!success)
+    {
+        SLLog(@"Copy Database file to Documents error ");
+    }
+    
+    /*
+     
+     if ([fileManager fileExistsAtPath:dbFilePath] == NO)
+     {
+     NSLog(@"not Exists");
+     }
+     else
+     {
+     NSLog(@"yes Exists");
+     }
+     
+     */
+}
+
+
 
 #pragma mark - View lifecyle
 

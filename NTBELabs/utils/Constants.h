@@ -8,11 +8,15 @@
 
 #pragma mark - App
 
-#define AppDBName                           @""
+#define AppDBName                           @"NTBELabsData.sqlite"
 
-#define LabsOrgName                         @""
+#define LabsOrgName                         @"NTBELabs"
 
-#define AppHandleOpenURL                    @""
+#define AppHandleOpenURL                    @"NTBELabs"
+
+
+#define AppDBFullPath                           [PATH_OF_DOCUMENT stringByAppendingPathComponent:AppDBName]
+
 
 
 #define kLeftMargin				20.0

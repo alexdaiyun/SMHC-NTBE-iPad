@@ -21,4 +21,11 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+
+#pragma mark - Start-up
+- (void)Startup;
+- (void)CheckAndCreateDatabae;
+
+
+
 @end

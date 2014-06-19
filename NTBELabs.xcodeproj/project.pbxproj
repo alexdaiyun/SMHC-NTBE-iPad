@@ -31,6 +31,7 @@
 		CC87D7AB1951576500DE3C71 /* NTBELabsData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CC87D7AA1951576400DE3C71 /* NTBELabsData.sqlite */; };
 		CC87D7AE1951652A00DE3C71 /* SMHC_AppFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7AD1951652A00DE3C71 /* SMHC_AppFactory.m */; };
 		CC87D7B11951665E00DE3C71 /* SMHC_AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7B01951665E00DE3C71 /* SMHC_AppController.m */; };
+		CC87D7B51951A1D300DE3C71 /* SMHC_MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87D7B41951A1D300DE3C71 /* SMHC_MainPageViewController.m */; };
 		CCBABDD7194FF5D3001B507C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDD6194FF5D3001B507C /* Foundation.framework */; };
 		CCBABDD9194FF5D3001B507C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDD8194FF5D3001B507C /* CoreGraphics.framework */; };
 		CCBABDDB194FF5D3001B507C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBABDDA194FF5D3001B507C /* UIKit.framework */; };
@@ -99,6 +100,8 @@
 		CC87D7AD1951652A00DE3C71 /* SMHC_AppFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMHC_AppFactory.m; sourceTree = "<group>"; };
 		CC87D7AF1951665E00DE3C71 /* SMHC_AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHC_AppController.h; sourceTree = "<group>"; };
 		CC87D7B01951665E00DE3C71 /* SMHC_AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMHC_AppController.m; sourceTree = "<group>"; };
+		CC87D7B31951A1D300DE3C71 /* SMHC_MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMHC_MainPageViewController.h; path = ViewControllers/SMHC_MainPageViewController.h; sourceTree = "<group>"; };
+		CC87D7B41951A1D300DE3C71 /* SMHC_MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMHC_MainPageViewController.m; path = ViewControllers/SMHC_MainPageViewController.m; sourceTree = "<group>"; };
 		CCBABDD3194FF5D3001B507C /* NTBELabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTBELabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBABDD6194FF5D3001B507C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCBABDD8194FF5D3001B507C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -224,6 +227,13 @@
 			path = Vendor/BrushTool;
 			sourceTree = "<group>";
 		};
+		CC87D7B219519C5600DE3C71 /* SampleCode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SampleCode;
+			sourceTree = "<group>";
+		};
 		CCBABDCA194FF5D2001B507C = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +271,7 @@
 		CCBABDDC194FF5D3001B507C /* NTBELabs */ = {
 			isa = PBXGroup;
 			children = (
+				CC87D7B219519C5600DE3C71 /* SampleCode */,
 				CC87D7611950355500DE3C71 /* Categories */,
 				CC87D7601950354B00DE3C71 /* Vendor */,
 				CC87D75F1950353A00DE3C71 /* Model */,
@@ -332,6 +343,8 @@
 		CCBABE071950026C001B507C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CC87D7B31951A1D300DE3C71 /* SMHC_MainPageViewController.h */,
+				CC87D7B41951A1D300DE3C71 /* SMHC_MainPageViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -492,6 +505,7 @@
 				CCBABDE3194FF5D3001B507C /* main.m in Sources */,
 				CCBABDE7194FF5D3001B507C /* SMHC_AppDelegate.m in Sources */,
 				CC87D7671950381F00DE3C71 /* CRNavigationBar.m in Sources */,
+				CC87D7B51951A1D300DE3C71 /* SMHC_MainPageViewController.m in Sources */,
 				CC87D7AE1951652A00DE3C71 /* SMHC_AppFactory.m in Sources */,
 				CC87D79B1950B8D000DE3C71 /* Subjects.m in Sources */,
 				CC87D7B11951665E00DE3C71 /* SMHC_AppController.m in Sources */,
